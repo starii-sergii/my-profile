@@ -1,0 +1,108 @@
+
+h1, h2{
+    color: bisque;
+}
+body {
+background-color: rgb(30, 30, 30);
+color: beige;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18   px;
+}
+
+a{
+color: beige;
+}
+
+
+h2{
+    font-weight: lighter;
+}
+
+ul{
+    line-height: 0.65;
+}
+
+.list-inline {
+    line-height: 2.5; 
+}
+
+.container{
+width: 700px;
+margin: 40px auto ;
+}
+
+.card-white{
+    background-color: rgb(50, 50, 50);
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    margin: 40px 0px;
+    text-align: center;
+}   
+
+.img-circle{
+    border-radius:4%;
+}
+
+.btn-white{
+    text-decoration: none;
+    background-color: beige ;
+    color: rgb(30, 30, 30);
+    padding: 10px 15px;
+    line-height: 4  ;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+.btn-white:hover{
+background-color: bisque;
+color: rgb(30, 30, 30);
+font-size: 23px;    
+}
+.list-inline{
+    list-style: none  ;
+    padding-left: 0px;
+}
+
+.list-inline li{
+    display: inline-block ;
+    padding: 10px;
+}
+
+.list-inline i{
+font-size: 50px;
+color: beige;
+}
+
+.list-inline i:hover{
+    color: bisque;
+    font-size: 60px;
+}
+
+h1 h2{
+    color: bisque;
+}
+
+.skills{
+    list-style:none
+    
+}
+.skills li{
+    display:inline-block
+
+}
+
+.skills p{
+    padding:15px  
+}
+@media(max-width: 500px){
+    .container{
+        width: 400px
+    }
+}
+
+@media(max-width: 760px){
+    .container{
+        width: 600px
+    }
+}
